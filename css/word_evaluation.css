@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul, li {
+    list-style-type: none;
+}
+
+body {
+    font-family: HelveticaNeue,Helvetica,Arial,sans-serif;
+}
+
+.my-grade {
+	display: flex;
+	align-items: center;
+	padding: 22px 0;
+}
+
+.my-grade .title {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 0 16px 0 18px;
+	position: relative;
+}
+
+.my-grade .title span {
+	font-size: 16px;
+	color: #0fc684;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+.my-grade .title:after {
+	content: '';
+	position: absolute;
+	right: 0;
+	width: 1px;
+	height: 60px;
+	background-color: #eee;
+}
+
+.my-grade .items {
+	flex: 1;
+	display: flex;
+	align-items: center;
+}
+
+.my-grade .item {
+	width: 50%;
+	font-size: 16px;
+	color: #2e2e2e;
+}
+
+.my-grade .item:first-child {
+	padding-left: 16px;
+}
+
+.my-grade .item li {
+	display: flex;
+	align-items: center;
+	line-height: 21px;
+}
+
+.my-grade .item li:first-child {
+	margin-bottom: 10px;
+}
+
+.my-grade .item img {
+	width: 15px;
+	height: 15px;
+	margin-right: 5px;
+}
+
+.time, .per, .money, .exp {
+	margin-left: 5px;
+	font-size: 18px;
+	color: #0fc684;
+}
+
+.border {
+	height: 12px;
+	background-color: #eee;
+}
+
+.table {
+	padding: 0 16px;
+}
+
+.table .title {
+	font-size: 16px;
+	color: #0fc684;
+	font-weight: bold;
+	letter-spacing: 2px;
+	text-align: center;
+	padding: 15px 0;
+}
+
+.table .table-head {
+	display: flex;
+	justify-content: center;
+	background: #f4f4f4;
+	border-radius: 2px;
+	padding: 8px 4px;
+}
+
+.table .table-head li {
+	font-size: 14px;
+	color: #2e2e2e;
+	text-align: center;
+}
+
+.table .table-body {
+	height: 370px;
+	overflow: auto;
+}
+
+.table .table-body-item {
+	display: flex;
+	justify-content: center;
+	padding: 12px 0;
+	border-bottom: 1px solid #e6e6e6;
+}
+
+.table .table-body-item li {
+	font-size: 14px;
+	color: #2e2e2e;
+	text-align: center;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	padding: 15px 0;
+	background-color: #ffd237;
+	color: #fff;
+	letter-spacing: 1px;
+}
