@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul, li {
+    list-style-type: none;
+}
+
+body {
+    font-family: HelveticaNeue,Helvetica,Arial,sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.green {
+    color: #11c482;
+}
+
+.red {
+    color: #fd440d;
+}
+
+.overflow-auto {
+    overflow: auto;
+}
+
+.body {
+    overflow: auto;
+}
+
+.calendar {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.calendar p {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    line-height: 56px;
+    font-size: 28px;
+    color: #d2d2d2;
+}
+
+.say {
+    margin-top: 12px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.say p {
+    border: 1px solid #87e2c1;
+    border-radius: 15px;
+    line-height: 30px;
+    font-size: 14px;
+    padding: 0 16px;
+    margin-right: 10px;
+    position: relative;
+}
+
+.say p:after {
+    content: "";
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    border: 0;
+    border-right: 1px solid #87e2c1;
+    border-bottom: 1px solid #87e2c1;
+    position: absolute;
+    right: -3px;
+    top: 11px;
+    border-radius: 50%;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    background-color: #fff;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+    background-color: #ffd237;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.footer a {
+    display: block;
+}
+
+.chart {
+    height: 360px;
+}
+
+.legend {
+    text-align: right;
+    padding-right: 16px;
+    font-size: 12px;
+    color: #4f4f4f;
+    line-height: 20px;
+    margin: 24px 0 4px;
+}
