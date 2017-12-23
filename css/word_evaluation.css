@@ -96,6 +96,7 @@ body {
 	letter-spacing: 2px;
 	text-align: center;
 	padding: 15px 0;
+	min-width: 42px;
 }
 
 .table .table-head {
@@ -112,11 +113,6 @@ body {
 	text-align: center;
 }
 
-.table .table-body {
-	height: 370px;
-	overflow: auto;
-}
-
 .table .table-body-item {
 	display: flex;
 	justify-content: center;
@@ -128,6 +124,10 @@ body {
 	font-size: 14px;
 	color: #2e2e2e;
 	text-align: center;
+}
+
+.table .table-body-item .font-color {
+	color: #0fc684;
 }
 
 .footer {
