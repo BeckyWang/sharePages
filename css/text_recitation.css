@@ -134,9 +134,21 @@ body {
 	position: absolute;
 	bottom: 0;
 	width: 100%;
-	text-align: center;
-	line-height: 51px;
-	background-color: #ffd237;
 	color: #fff;
 	letter-spacing: 1px;
+	display: flex;
+}
+
+.footer span{
+	width: 50%;
+	text-align: center;
+	line-height: 51px;
+}
+
+.footer .bg-green {
+	background-color: #0fc684;
+}
+
+.footer .bg-yellow {
+	background-color: #ffd237;
 }

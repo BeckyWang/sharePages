@@ -25,10 +25,10 @@ $(document).ready(function() {
 
 		data.rank_list.forEach(function(val) {
 			var ulHtml = '<ul class="table-body-item">' +
-				'<li style="width: 15%;"' + (val.order < 4 && 'class="font-color"') + '>' + val.order + '</li>' +
-				'<li style="width: 24%;">' + val.username + '</li>' +
-				'<li style="width: 33%;">' + val.cost_time + '</li>' +
-				'<li style="width: 28%;">' + val.correct_ratio + '</li>' +
+				'<li style="width: 18%;"' + (val.order < 4 && 'class="font-color"') + '>' + val.order + '</li>' +
+				'<li style="width: 28%;">' + val.username + '</li>' +
+				'<li style="width: 28%;">' + val.cost_time + '</li>' +
+				'<li style="width: 26%;">' + val.correct_ratio + '</li>' +
 			'</ul>';
 			$('.table-body').append(ulHtml);
 		});
