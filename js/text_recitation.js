@@ -3,7 +3,7 @@ $(document).ready(function() {
 
 	var requestData = function() {
 		$.ajax({
-			url: 'http://test-phpadmin.seer-global.cn/api/user/share/wordAbility',
+			url: 'http://test-phpadmin.seer-global.cn/api/user/share/lessonRecite',
 			type: 'get',
 			data: 'test_id=123',
 			dataType: 'json',
