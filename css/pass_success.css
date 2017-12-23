@@ -68,7 +68,7 @@ body {
 .result .item {
 	display: flex;
 	align-items: center;
-	font-size: 18px;
+	font-size: 16px;
 	color: #fff;
 	letter-spacing: 1px;
 	position: relative;
@@ -93,7 +93,7 @@ body {
 }
 
 .time, .right, .per, .money, .exp {
-	font-size: 28px;
+	font-size: 24px;
 	color: #f4cc46;
 }
 
