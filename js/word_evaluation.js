@@ -5,7 +5,7 @@ $(document).ready(function() {
 		$.ajax({
 			url: 'http://test-phpadmin.seer-global.cn/api/user/share/wordAbility',
 			type: 'get',
-			data: 'test_id=123',
+			data: 'test_id=123&sharekey=9f996c0f83616ae5435bd9acdfbea0ac',
 			dataType: 'json',
 			success: function(result) {
 				if(result.code == 0) {
