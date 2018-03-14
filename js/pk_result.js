@@ -32,6 +32,10 @@ $(document).ready(function() {
         $('#test_time').html(data.test_time);
         $("#audio").attr("src", data.mp3_url);
 
+        var percent = parseFloat(data.correct_ratio + "") / 100, 
+            perimeter = Math.PI * 2 * 2.48;
+        $(".ring circle").attr("stroke-dasharray", perimeter * percent + "rem " + perimeter * (1- percent) + "rem");
+
         $('#experience')
             .data("url", data.download_url)
             .on("click", function() {
