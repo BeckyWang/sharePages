@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    position: relative;
+    width: 7.5rem;
+    letter-spacing: 0.01rem;
+}
+
+.header img {
+    width: 100%;
+}
+
+.header .line1 {
+    position: absolute;
+    top: 1.6rem;
+    left: 2.95rem;
+    font-family: "Microsoft YaHei";
+    font-size: 0.36rem;
+    color: #FFF;
+}
+
+.header .line2 {
+    position: absolute;
+    top: 2.18rem;
+    left: 2.95rem;
+    font-family: "Microsoft YaHei";
+    font-size: 0.6rem;
+    color: #FFF100;
+    font-weight: bold;
+}
+
+.header .line3 {
+    position: absolute;
+    top: 3.03rem;
+    left: 2.95rem;
+    font-family: "Microsoft YaHei";
+    font-size: 0.36rem;
+    color: #FFF;
+}
+
+.section {
+    position: relative;
+    width: 7.5rem;
+    padding-top: 2.4rem;
+    height: 4.16rem;
+}
+
+.section img {
+    position: absolute;
+    left: 0.56rem;
+    top: 0.7rem;
+    width: 5.88rem;
+    z-index: -1;
+}
+
+.section .ring {
+    position: absolute;
+    left: 1.05rem;
+    top: 0.7rem;
+    transform: matrix(0,-1,-1,0,0,0);
+    z-index: -1;
+}
+
+.section .title {
+    text-align: center;
+    color: #000;
+    font-family: "Microsoft YaHei";
+    font-size: 0.24rem;
+    line-height: 100%;
+}
+
+.section .percentage {
+    margin-top: 0.45rem;
+    text-align: center;
+    color: #0fc684;
+    font-family: "Microsoft YaHei";
+    font-size: 0.72rem;
+    line-height: 100%;
+}
+
+.section .time {
+    margin-top: 0.45rem;
+    text-align: center;
+    color: #444;
+    font-family: "Microsoft YaHei";
+    font-size: 0.3rem;
+    line-height: 100%;
+}
+
+.section .time .value{
+    color: #0fc684;
+}
+
+.listen {
+    display: flex;
+    height: 0.62rem;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.8rem;
+}
+
+.listen img {
+    width: 0.62rem;
+
+}
+
+.listen span {
+    font-family: "Microsoft YaHei";
+    font-size: 0.24rem;
+    margin-left: 0.26rem;
+}
+
+.footer {
+    width: 7rem;
+    position: fixed;
+    bottom: 0;
+    padding: 0.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 -0.01rem 0.03rem 0.03rem #eee;
+}
+
+.footer img {
+    width: 3.6rem;
+}
+
+.footer button {
+    background-color: #0fc684;
+    font-size: 0.3rem;
+    color: #fff;
+    padding: 0.24rem 0.66rem;
+    border: 0;
+    border-radius: 0.12rem;
+    letter-spacing: 0.01rem;
+}
