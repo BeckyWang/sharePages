@@ -11,7 +11,7 @@ $(document).ready(function() {
 
     var requestData = function() {
         $.ajax({
-            url: 'http://test-phpadmin.seer-global.cn/api/user/share/newLessonTest',
+            url: 'http://test-phpadmin.seer-global.cn/api/user/share/newWordTest',
             type: 'get',
             data: 'sharekey=' + getQueryString('sharekey'),
             dataType: 'json',

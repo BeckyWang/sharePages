@@ -1,0 +1,43 @@
+<!DOCTYPE>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>口语测评</title>
+    <script>
+        (function() {
+            var innerWidth = window.innerWidth;
+            document.documentElement.style.fontSize = (innerWidth / 750) * 100 + 'px'; 
+        })();
+    </script>
+    <link rel="stylesheet" href="../css/pk_result1.css">
+</head>
+<body>
+    <div class="header">
+        <img src="../image/girl3.png" alt="head">
+        <span class="line1">成绩在全国排名</span>
+        <span class="line2" id="rank">第100名</span>
+        <span class="line3" id="exceed_ratio">打败全国99%的同学</span>
+    </div>
+    <div class="section">
+        <img src="../image/circle.png" alt="circle">
+        <svg width="5.38rem" height="5.38rem" xmlns="http://www.w3.org/2000/svg" version="1.1" class="ring">
+            <circle cx="2.68rem" cy="2.68rem" r="2.48rem" stroke-width="0.38rem" stroke="#0fc684" fill="none" stroke-dasharray="0 0"></circle>
+        </svg>
+        <p class="title">我的测评音准率</p>
+        <p class="percentage" id="correct_ratio">99.58%</p>
+        <p class="time">测评时长：<span class="value" id="test_time">01:58</span></p>
+    </div>
+    <div class="listen">
+        <img src="../image/play_on.png" id="play" alt="play">
+        <span>收听我的录音</span>
+        <audio src="" id="audio" style="display: none"></audio>
+    </div>
+    <div class="footer">
+        <img src="../image/foot_icon.png" alt="foot_icon">
+        <button data-url="" id="experience">立即体验</button>
+    </div>
+    <script src="../plugin/jquery.min.js"></script>
+    <script src="../js/pk_result1.js"></script>
+</body>
+</html>
